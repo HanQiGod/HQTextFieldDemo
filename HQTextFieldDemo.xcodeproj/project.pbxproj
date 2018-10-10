@@ -17,6 +17,7 @@
 		7AA4DAA1216D92ED0001696A /* HQTextFieldDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DAA0216D92ED0001696A /* HQTextFieldDemoUITests.m */; };
 		7AA4DAB3216D93740001696A /* HQTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DAB2216D93740001696A /* HQTextField.m */; };
 		7AA4DAB6216D93CD0001696A /* HQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DAB5216D93CD0001696A /* HQViewController.m */; };
+		7AA4DAB8216D9B040001696A /* txtfield.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7AA4DAB7216D9B030001696A /* txtfield.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		7AA4DAB2216D93740001696A /* HQTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQTextField.m; sourceTree = "<group>"; };
 		7AA4DAB4216D93CD0001696A /* HQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQViewController.h; sourceTree = "<group>"; };
 		7AA4DAB5216D93CD0001696A /* HQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQViewController.m; sourceTree = "<group>"; };
+		7AA4DAB7216D9B030001696A /* txtfield.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = txtfield.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				7AA4DA7D216D92EA0001696A /* AppDelegate.m */,
 				7AA4DA7F216D92EA0001696A /* ViewController.h */,
 				7AA4DA80216D92EA0001696A /* ViewController.m */,
+				7AA4DAB7216D9B030001696A /* txtfield.gif */,
 				7AA4DA82216D92EA0001696A /* Main.storyboard */,
 				7AA4DA85216D92EC0001696A /* Assets.xcassets */,
 				7AA4DA87216D92EC0001696A /* LaunchScreen.storyboard */,
@@ -245,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AA4DAB8216D9B040001696A /* txtfield.gif in Resources */,
 				7AA4DA89216D92EC0001696A /* LaunchScreen.storyboard in Resources */,
 				7AA4DA86216D92EC0001696A /* Assets.xcassets in Resources */,
 				7AA4DA84216D92EA0001696A /* Main.storyboard in Resources */,
