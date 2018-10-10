@@ -15,6 +15,8 @@
 		7AA4DA8C216D92EC0001696A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DA8B216D92EC0001696A /* main.m */; };
 		7AA4DA96216D92ED0001696A /* HQTextFieldDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DA95216D92ED0001696A /* HQTextFieldDemoTests.m */; };
 		7AA4DAA1216D92ED0001696A /* HQTextFieldDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DAA0216D92ED0001696A /* HQTextFieldDemoUITests.m */; };
+		7AA4DAB3216D93740001696A /* HQTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DAB2216D93740001696A /* HQTextField.m */; };
+		7AA4DAB6216D93CD0001696A /* HQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DAB5216D93CD0001696A /* HQViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		7AA4DA9C216D92ED0001696A /* HQTextFieldDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HQTextFieldDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA4DAA0216D92ED0001696A /* HQTextFieldDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQTextFieldDemoUITests.m; sourceTree = "<group>"; };
 		7AA4DAA2216D92ED0001696A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA4DAB1216D93740001696A /* HQTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQTextField.h; sourceTree = "<group>"; };
+		7AA4DAB2216D93740001696A /* HQTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQTextField.m; sourceTree = "<group>"; };
+		7AA4DAB4216D93CD0001696A /* HQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQViewController.h; sourceTree = "<group>"; };
+		7AA4DAB5216D93CD0001696A /* HQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		7AA4DA7B216D92EA0001696A /* HQTextFieldDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7AA4DAB1216D93740001696A /* HQTextField.h */,
+				7AA4DAB2216D93740001696A /* HQTextField.m */,
+				7AA4DAB4216D93CD0001696A /* HQViewController.h */,
+				7AA4DAB5216D93CD0001696A /* HQViewController.m */,
 				7AA4DA7C216D92EA0001696A /* AppDelegate.h */,
 				7AA4DA7D216D92EA0001696A /* AppDelegate.m */,
 				7AA4DA7F216D92EA0001696A /* ViewController.h */,
@@ -262,8 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AA4DAB6216D93CD0001696A /* HQViewController.m in Sources */,
 				7AA4DA81216D92EA0001696A /* ViewController.m in Sources */,
 				7AA4DA8C216D92EC0001696A /* main.m in Sources */,
+				7AA4DAB3216D93740001696A /* HQTextField.m in Sources */,
 				7AA4DA7E216D92EA0001696A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

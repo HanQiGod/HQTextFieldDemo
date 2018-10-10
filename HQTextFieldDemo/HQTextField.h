@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HQTextField.h
 //  HQTextFieldDemo
 //
 //  Created by Mr_Han on 2018/10/10.
@@ -8,8 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
+
+@interface HQTextField : UITextField
+
+
+/**
+ * 显示警示框
+ */
+- (void)showWarn;
+
 
 
 @end
 
+NS_ASSUME_NONNULL_END
